@@ -9,10 +9,10 @@ jobs:
     steps:
     - uses: action/checkout@master
     - uses: jakejarvis/s3-sync-action@master
-    with :
-      args: --acl private --follow-symlinks --delete
-    env:
-      AWS_S3_BUCKET : ${{ secrets.AWS_S3_BUCKET }}
-      AWS_ACCESS_KEY_ID : ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_REGION : 'ap-south-1'
-      SOURCE_DIR : 'website'
+      with:
+        args: --acl private --follow-symlinks --delete
+      env:
+        AWS_S3_BUCKET : ${{ secrets.AWS_S3_BUCKET }}
+        AWS_ACCESS_KEY_ID : ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_REGION : 'ap-south-1'
+        SOURCE_DIR : 'website'
