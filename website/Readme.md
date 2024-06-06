@@ -6,43 +6,7 @@ The AWS Cloud Resume Challenge is a project aimed at showcasing proficiency in c
 
 ## Architecture Diagram
 
-+-----------------------------------------------------+
-|                                                     |
-|                   Resume Website                    |
-|             (HTML, CSS, JavaScript)                 |
-|                                                     |
-+-----------------------+-----------------------------+
-                        |
-                        v
-+-----------------------+-----------------------------+
-|                                                     |
-|                     GitHub                          |
-|             (Source Code Repository)                |
-|                                                     |
-+-----------------------+-----------------------------+
-                        |
-                        v
-+-----------------------+-----------------------------+
-|                                                     |
-|                GitHub Actions                       |
-|         (CI/CD Pipeline Automation)                 |
-|                                                     |
-+-----------------------+-----------------------------+
-                        |
-                        v
-+-----------------------+-----------------------------+
-|                                                     |
-|                AWS S3 (Static Website Hosting)      |
-|                                                     |
-+-----------------------+-----------------------------+
-                        |
-                        v
-+-----------------------+-----------------------------+
-|                                                     |
-|            AWS CloudFormation (IaC)                 |
-|             (Infrastructure Automation)             |
-|                                                     |
-+-----------------------+-----------------------------+
+![Architecture Diagram](Architecture-diagram.jpg)
 
 ## Components
 
