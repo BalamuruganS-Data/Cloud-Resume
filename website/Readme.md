@@ -38,7 +38,7 @@ To deploy your resume website using this project:
 
 ## Contributors
 
-- [Your Name](https://github.com/BalamuruganS-Data)
+- [Balamurugan S](https://github.com/BalamuruganS-Data)
 
 ## License
 
