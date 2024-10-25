@@ -6,7 +6,7 @@ The AWS Cloud Resume Challenge is a project aimed at showcasing proficiency in c
 
 ## Architecture Diagram
 
-![Architecture Diagram](Architecture-diagram.jpg)
+![Architecture Diagram](Architecture-diagram.png)
 
 ## Components
 
